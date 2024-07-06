@@ -21,9 +21,9 @@ toggleTemaElement.addEventListener('click', function () {
     let tema = htmlElement.getAttribute('data-bs-theme')
     if (tema === 'light') {
         htmlElement.setAttribute('data-bs-theme', 'dark');
-        toggleTemaElement.innerHTML = "<i class=\"bi bi-moon-fill\"></i>"
+        toggleTemaElement.innerHTML = "<i class=\"bi bi-brightness-high-fill\"></i>"
     } else {
         htmlElement.setAttribute('data-bs-theme', 'light');
-        toggleTemaElement.innerHTML = "<i class=\"bi bi-brightness-high-fill\"></i>"
+        toggleTemaElement.innerHTML = "<i class=\"bi bi-moon-fill\"></i>"
     }
 })
